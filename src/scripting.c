@@ -2679,8 +2679,8 @@ static void ShowItemSpriteOnFind(unusedArg u16 itemId, unusedArg u8* spriteId)
 	s16 x, y;
 	u8 iconSpriteId;
 
-	if (itemId == ITEM_TM59_DRAGON_PULSE && ITEM_TM59_DRAGON_PULSE == 0x177) //Replaced the arrow
-		iconSpriteId = AddItemIconSprite(ITEM_TAG, ITEM_TAG, ITEM_TM02_DRAGON_CLAW); //Replace the close bag arrow with a Dragon TM sprite
+	if (itemId == ITEM_TM59 && ITEM_TM59 == 0x177) //Replaced the arrow
+		iconSpriteId = AddItemIconSprite(ITEM_TAG, ITEM_TAG, ITEM_TM02); //Replace the close bag arrow with a Dragon TM sprite
 	else
 		iconSpriteId = AddItemIconSprite(ITEM_TAG, ITEM_TAG, itemId);
 
